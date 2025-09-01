@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="logo">Hari</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger -->
+    <ul class="nav-links" id="nav-links">
+    <!-- <img src="./images/praveen.jpg" alt="Praveen Image" /> -->
+     <div class="logo1">Hari</div>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="overlay" id="overlay"></div>
+
+  <section id="home" class="home section-anchor-padding" >
+    <div class="home-content">
+      <h1>Hi, this is <span class="name">Hari</span></h1>
+      <h2 class="typing-text"></h2>
+    </div>
+  </section>
+
+  <section class="about section-anchor-padding" id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m Hari 👋 <br><br>
+        I am a passionate <b>Web Developer</b> and <b>Freelancer</b> with strong knowledge 
+        in modern web technologies. I enjoy creating clean, responsive, and interactive 
+        websites. My skills include <b>HTML, CSS, JavaScript, React.js</b> and backend 
+        technologies like <b>Node.js, PHP, SQL</b>.
+      </p>
+      <p>
+        Apart from coding, I love exploring new technologies and improving my skills. 
+        I am currently looking for opportunities to showcase my abilities and 
+        contribute to impactful projects. 🚀
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="./images/praveen.jpg" alt="Praveen Image" />
+    </div>
+  </section>
+
+<section class="skills" id="skills">
+  <h1 class="section-title">My Skills</h1>
+  <div class="skills-track">
+    <!-- First set -->
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js"><span>React.js</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>Node.js</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></div>
+
+    <!-- Duplicate set for infinite scroll -->
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js"><span>React.js</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>Node.js</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></div>
+    <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></div>
+  </div>
+</section>
+<section class="projects-section" id="projects">
+  <h1>My Projects</h1>
+  <div class="carousel-container">
+    <ul class="carousel" data-target="carousel">
+      <li class="card" style="background-image: url(./images/foodie-apps1.jpg);" data-target="card">
+        <div class="card-content">
+          <h2>Foodie</h2>
+          <p>A modern, full-stack web application for discovering and sharing recipes and food reviews.</p>
+          <div class="card-links">
+            <a href="https://github.com/praveen040-gif/Foodie" target="_blank">GitHub</a>
+            <a href="https://praveen040-gif.github.io/Foodie/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </li>
+
+            <li class="card" style="background-image: url(./images/edu.jpg);" data-target="card">
+        <div class="card-content">
+          <h2>Online Course Platform</h2>
+          <p>A responsive frontend website for exploring and enrolling in courses, with a clean and interactive user interface for learners.</p>
+          <div class="card-links">
+            <a href="https://github.com/praveen040-gif/Learning" target="_blank">GitHub</a>
+            <a href="https://praveen040-gif.github.io/Learning/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </li>
+
+                        <li class="card" style="background-image: url(./images/ecommerce.jpeg);" data-target="card">
+        <div class="card-content">
+          <h2>E-Commerce Storefront</h2>
+          <p>A sleek frontend shopping platform with product listings, cart functionality, and a modern UI for a smooth shopping experience.</p>
+          <div class="card-links">
+            <a href="https://github.com/praveen040-gif/Shoppy-commerce" target="_blank">GitHub</a>
+            <a href="https://praveen040-gif.github.io/Shoppy-commerce/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </li>
+
+            <li class="card" style="background-image: url(./images/hotel.jpeg);" data-target="card">
+        <div class="card-content">
+          <h2>Hotel Booking Website</h2>
+          <p>A responsive frontend design for a hotel booking platform, featuring room listings, availability display, and a clean user-friendly interface.</p>
+          <div class="card-links">
+            <a href="https://github.com/praveen040-gif/Hotel" target="_blank">GitHub</a>
+            <a href="https://praveen040-gif.github.io/Hotel/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="card" style="background-image: url(./images/learning.jpeg);" data-target="card">
+        <div class="card-content">
+          <h2>Learning & Skill Development</h2>
+          <p>A modern, full-stack web application built as a learning experiment. Focused on practicing core development concepts while exploring new tools and frameworks.</p>
+          <div class="card-links">
+            <a href="https://github.com/praveen040-gif/Educaion" target="_blank">GitHub</a>
+            <a href="https://praveen040-gif.github.io/Educaion/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </li>
+
+        <li class="card" style="background-image: url(./images/portfolio.jpg);" data-target="card">
+        <div class="card-content">
+          <h2>Personal Portfolio</h2>
+          <p>A responsive portfolio website showcasing skills, projects, and achievements with a clean design and smooth animations.</p>
+          <div class="card-links">
+            <a href="https://github.com/your-username/project-3" target="_blank">GitHub</a>
+            <a href="https://your-live-demo-3.com" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </li>
+
+
+
+    </ul>
+
+    <!-- Navigation -->
+    <button class="nav-btn prev" data-action="slideLeft">&#10094;</button>
+    <button class="nav-btn next" data-action="slideRight">&#10095;</button>
+  </div>
+</section>
+
+  <section class="services-section section-anchor-padding" id="services" >
+    <h1>My Services</h1>
+    <div class="services-container">
+      <div class="service-card">
+        <div class="icon">&#x1F4BB;</div><h2>Frontend Development</h2>
+        <p>I build elegant and responsive user interfaces that provide a seamless user experience across all devices.</p>
+        <div class="skills-list">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>React</span>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="icon">&#x1F528;</div><h2>Backend Development</h2>
+        <p>I develop robust and scalable server-side applications that power your website's functionality and performance.</p>
+        <div class="skills-list">
+          <span>Node.js</span>
+          <span>Express.js</span>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="icon">&#x1F4C1;</div><h2>Database Management</h2>
+        <p>I design and manage efficient databases to ensure your data is secure, organized, and easily accessible.</p>
+        <div class="skills-list">
+          <span>MongoDB</span>
+          <span>SQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section section-anchor-padding" id="contact">
+    <h1>Get In Touch</h1>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p>I am currently available for freelance projects. Whether you have a question or just want to say hi, feel free to send me a message.</p>
+        <div class="social-links">
+             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-github fa-2x"></i>
+</a>
+           <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-linkedin fa-2x"></i>
+</a>
+
+
+        </div>
+      </div>
+      <form class="contact-form" action="your-form-submission-url" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="social-links-footer">
+           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-github fa-2x"></i>
+</a>
+           <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-linkedin fa-2x"></i>
+</a>
+
+ 
+
+        </div>
+        <p class="copyright">&copy; <span id="current-year"></span> Hari. All Rights Reserved.</p>
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+  <script src="home.js"></script>
+  <script src="projects.js"></script>
+  <script src="hamburger.js"></script>
+  
+</body>
+</html>

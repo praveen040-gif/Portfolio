@@ -1,0 +1,40 @@
+/* Home Section Styles */
+.home {
+  height: 100vh;
+  /* background-color: navy;  Navy blue background */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home .name {
+  color: #00ffcc;  /* Highlight color */
+}
+
+.home h1 {
+  font-size: 4rem; /* Big text for main heading */
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.home h2 {
+  font-size: 2rem; /* Subheading smaller than h1 */
+  font-weight: 400;
+  margin-top: 10px;
+  color: #f1f1f1;
+}
+
+
+.typing-text {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  border-right: none;/* no cursor */
+  white-space: nowrap;
+  overflow: hidden;
+  min-height: 2.5rem;   /* fixes the jump */
+  line-height: 2.5rem;  /* keeps stable vertical spacing */
+}
