@@ -1,9 +1,9 @@
-const roles = ["Web Developer", "Freelancer","Designer"];
+const roles = ["Web Developer", "Freelancer", "Designer"];
 let roleIndex = 0;
 let charIndex = 0;
-const typingSpeed = 150;
-const erasingSpeed = 100;
-const delayBetweenRoles = 2000;
+const typingSpeed = 120;  // smoother typing
+const erasingSpeed = 60;  // slightly faster erase
+const delayBetweenRoles = 1500; // wait before erasing
 const typingElement = document.querySelector(".typing-text");
 
 function type() {

@@ -342,6 +342,9 @@ section {
     /* text-shadow: 0 0 10px var(--primary-accent), 0 0 20px var(--primary-accent); */
 }
 
+
+
+
 .typing-text {
     font-size: 1.8rem;
     font-weight: 500;
@@ -354,6 +357,8 @@ section {
     animation: typing 3s steps(30, end), blink-caret .75s step-end infinite;
 }
 
+
+
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
@@ -362,6 +367,14 @@ section {
     from, to { border-color: transparent }
     50% { border-color: var(--primary-accent); }
 }
+
+
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
 
 /* --- 4. About Section --- */
 .about {
