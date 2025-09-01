@@ -11,6 +11,20 @@
   });
 
 
+ 
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent actual form submission
+
+    // Show success message
+    document.getElementById("successMessage").style.display = "block";
+
+    // Clear all input fields
+    this.reset();
+  });
+
+
+
+
 
 
 
